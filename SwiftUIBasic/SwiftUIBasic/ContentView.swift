@@ -13,8 +13,11 @@ struct ContentView: View {
 //        ExampleZStack()
 //        ExampleList1()
 //        ExampleList2()
-        ExampleModal()
+//        ExampleModal()
 //        ExampleSafariVC()
+//        ExampleLabel()
+//        ExampleGroup()
+        ExampleTimelineView()
     }
 }
 
