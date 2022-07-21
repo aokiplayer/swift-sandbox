@@ -14,7 +14,6 @@ struct ExampleModal: View {
             // 表示するのはどんな View でも OK（別ファイルに作成した画面など）
             Text("モーダル画面")
         }
-
     }
 }
 

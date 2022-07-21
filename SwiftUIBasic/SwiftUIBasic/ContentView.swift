@@ -8,7 +8,13 @@ struct ContentView: View {
          */
         // 別のファイルで定義したビューを表示
 //        ExampleText()
-        ExampleList1()
+//        ExampleVStack()
+//        ExampleHStack()
+//        ExampleZStack()
+//        ExampleList1()
+//        ExampleList2()
+        ExampleModal()
+//        ExampleSafariVC()
     }
 }
 
