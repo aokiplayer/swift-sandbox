@@ -17,7 +17,9 @@ struct ContentView: View {
 //        ExampleSafariVC()
 //        ExampleLabel()
 //        ExampleGroup()
-        ExampleTimelineView()
+//        ExampleTimelineView()
+//        ExamplePreview1()
+        ExamplePreview2()
     }
 }
 
