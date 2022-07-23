@@ -19,7 +19,8 @@ struct ContentView: View {
 //        ExampleGroup()
 //        ExampleTimelineView()
 //        ExamplePreview1()
-        ExamplePreview2()
+//        ExamplePreview2()
+        ExampleAttributedString()
     }
 }
 

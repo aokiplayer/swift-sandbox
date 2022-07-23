@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B8599288A542700520CC2 /* Example_AttributedString.swift */; };
 		CD29E31728898B550042D090 /* Example_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E31628898B550042D090 /* Example_Label.swift */; };
 		CD29E3192889EEF70042D090 /* Example_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E3182889EEF70042D090 /* Example_Group.swift */; };
 		CD29E31B2889F2840042D090 /* Example_TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E31A2889F2840042D090 /* Example_TimelineView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1B8599288A542700520CC2 /* Example_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_AttributedString.swift; sourceTree = "<group>"; };
 		CD29E31628898B550042D090 /* Example_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Label.swift; sourceTree = "<group>"; };
 		CD29E3182889EEF70042D090 /* Example_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Group.swift; sourceTree = "<group>"; };
 		CD29E31A2889F2840042D090 /* Example_TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_TimelineView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				CD29E31A2889F2840042D090 /* Example_TimelineView.swift */,
 				CD52DE60288A4520007FA14C /* Example_Preview1.swift */,
 				CD52DE62288A4A0A007FA14C /* Example_Preview2.swift */,
+				CD1B8599288A542700520CC2 /* Example_AttributedString.swift */,
 				CD717EE627D9746000C3DC93 /* Assets.xcassets */,
 				CD717EE827D9746000C3DC93 /* Preview Content */,
 			);
@@ -179,6 +182,7 @@
 				CD595F5827D98D18006E13A5 /* Example_List1.swift in Sources */,
 				CD29E31728898B550042D090 /* Example_Label.swift in Sources */,
 				CDBEAA8927FC6D5000E295BC /* Example_SafariVC.swift in Sources */,
+				CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */,
 				CD595F5627D98873006E13A5 /* Example_ZStack.swift in Sources */,
 				CD595F5427D9849B006E13A5 /* Example_HStack.swift in Sources */,
 				CD52DE61288A4520007FA14C /* Example_Preview1.swift in Sources */,
