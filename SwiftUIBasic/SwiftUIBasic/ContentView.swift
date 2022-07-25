@@ -21,7 +21,8 @@ struct ContentView: View {
 //        ExamplePreview1()
 //        ExamplePreview2()
 //        ExampleAttributedString()
-        ExampleNavigationStack1()
+//        ExampleNavigationStack1()
+        ExampleNavigationStack2()
     }
 }
 
