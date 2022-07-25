@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B8599288A542700520CC2 /* Example_AttributedString.swift */; };
+		CD1B859E288B81E900520CC2 /* Example_NavigationStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B859D288B81E900520CC2 /* Example_NavigationStack1.swift */; };
 		CD29E31728898B550042D090 /* Example_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E31628898B550042D090 /* Example_Label.swift */; };
 		CD29E3192889EEF70042D090 /* Example_Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E3182889EEF70042D090 /* Example_Group.swift */; };
 		CD29E31B2889F2840042D090 /* Example_TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29E31A2889F2840042D090 /* Example_TimelineView.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		CD1B8599288A542700520CC2 /* Example_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_AttributedString.swift; sourceTree = "<group>"; };
+		CD1B859D288B81E900520CC2 /* Example_NavigationStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_NavigationStack1.swift; sourceTree = "<group>"; };
 		CD29E31628898B550042D090 /* Example_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Label.swift; sourceTree = "<group>"; };
 		CD29E3182889EEF70042D090 /* Example_Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Group.swift; sourceTree = "<group>"; };
 		CD29E31A2889F2840042D090 /* Example_TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_TimelineView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1B859C288B7CA300520CC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD717EF027D9762D00C3DC93 /* Example_Text.swift */,
+				CD717EF227D97B6F00C3DC93 /* Example_VStack.swift */,
+				CD595F5327D9849B006E13A5 /* Example_HStack.swift */,
+				CD595F5527D98873006E13A5 /* Example_ZStack.swift */,
+				CD595F5727D98D18006E13A5 /* Example_List1.swift */,
+				CDF3406527D999F200DF6E57 /* Example_List2.swift */,
+				CDF3406727D99F4000DF6E57 /* Example_Modal.swift */,
+				CDBEAA8827FC6D5000E295BC /* Example_SafariVC.swift */,
+				CD29E31628898B550042D090 /* Example_Label.swift */,
+				CD29E3182889EEF70042D090 /* Example_Group.swift */,
+				CD29E31A2889F2840042D090 /* Example_TimelineView.swift */,
+				CD52DE60288A4520007FA14C /* Example_Preview1.swift */,
+				CD52DE62288A4A0A007FA14C /* Example_Preview2.swift */,
+				CD1B8599288A542700520CC2 /* Example_AttributedString.swift */,
+				CD1B859D288B81E900520CC2 /* Example_NavigationStack1.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CD717ED627D9745F00C3DC93 = {
 			isa = PBXGroup;
 			children = (
@@ -81,20 +105,7 @@
 			children = (
 				CD717EE227D9745F00C3DC93 /* SwiftUIBasicApp.swift */,
 				CD717EE427D9745F00C3DC93 /* ContentView.swift */,
-				CD717EF027D9762D00C3DC93 /* Example_Text.swift */,
-				CD717EF227D97B6F00C3DC93 /* Example_VStack.swift */,
-				CD595F5327D9849B006E13A5 /* Example_HStack.swift */,
-				CD595F5527D98873006E13A5 /* Example_ZStack.swift */,
-				CD595F5727D98D18006E13A5 /* Example_List1.swift */,
-				CDF3406527D999F200DF6E57 /* Example_List2.swift */,
-				CDF3406727D99F4000DF6E57 /* Example_Modal.swift */,
-				CDBEAA8827FC6D5000E295BC /* Example_SafariVC.swift */,
-				CD29E31628898B550042D090 /* Example_Label.swift */,
-				CD29E3182889EEF70042D090 /* Example_Group.swift */,
-				CD29E31A2889F2840042D090 /* Example_TimelineView.swift */,
-				CD52DE60288A4520007FA14C /* Example_Preview1.swift */,
-				CD52DE62288A4A0A007FA14C /* Example_Preview2.swift */,
-				CD1B8599288A542700520CC2 /* Example_AttributedString.swift */,
+				CD1B859C288B7CA300520CC2 /* Views */,
 				CD717EE627D9746000C3DC93 /* Assets.xcassets */,
 				CD717EE827D9746000C3DC93 /* Preview Content */,
 			);
@@ -183,6 +194,7 @@
 				CD29E31728898B550042D090 /* Example_Label.swift in Sources */,
 				CDBEAA8927FC6D5000E295BC /* Example_SafariVC.swift in Sources */,
 				CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */,
+				CD1B859E288B81E900520CC2 /* Example_NavigationStack1.swift in Sources */,
 				CD595F5627D98873006E13A5 /* Example_ZStack.swift in Sources */,
 				CD595F5427D9849B006E13A5 /* Example_HStack.swift in Sources */,
 				CD52DE61288A4520007FA14C /* Example_Preview1.swift in Sources */,

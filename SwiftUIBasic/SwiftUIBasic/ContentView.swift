@@ -20,7 +20,8 @@ struct ContentView: View {
 //        ExampleTimelineView()
 //        ExamplePreview1()
 //        ExamplePreview2()
-        ExampleAttributedString()
+//        ExampleAttributedString()
+        ExampleNavigationStack1()
     }
 }
 
