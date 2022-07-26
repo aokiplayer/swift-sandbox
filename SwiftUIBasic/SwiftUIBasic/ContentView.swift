@@ -23,7 +23,8 @@ struct ContentView: View {
 //        ExampleAttributedString()
 //        ExampleNavigationStack1()
 //        ExampleNavigationStack2()
-        ExampleAlert1(isAlertShown: false)
+//        ExampleAlert1(isAlertShown: false)
+        ExampleAlert2(isAlertShown: false)
     }
 }
 

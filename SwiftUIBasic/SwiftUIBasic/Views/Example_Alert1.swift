@@ -5,7 +5,10 @@ struct ExampleAlert1: View {
     @State var isAlertShown: Bool
 
     var body: some View {
-        VStack {
+        VStack(alignment: .center) {
+            Text("アラート 1")
+                .font(.title)
+
             Button {
                 // ボタンをタップしたら State を更新
                 isAlertShown.toggle()
