@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ExampleAlert: View {
+struct ExampleAlert1: View {
     // アラートダイアログの表示を制御する State
     @State var isAlertShown: Bool
 
@@ -29,8 +29,8 @@ struct ExampleAlert: View {
     }
 }
 
-struct Example_Alert_Previews: PreviewProvider {
+struct Example_Alert1_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleAlert(isAlertShown: false)
+        ExampleAlert1(isAlertShown: false)
     }
 }
