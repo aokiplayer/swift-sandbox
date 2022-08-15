@@ -25,7 +25,8 @@ struct ContentView: View {
 //        ExampleNavigationStack2()
 //        ExampleAlert1(isAlertShown: false)
 //        ExampleAlert2(isAlertShown: false)
-        ExampleBinding()
+//        ExampleBinding()
+        ExampleFont()
     }
 }
 
