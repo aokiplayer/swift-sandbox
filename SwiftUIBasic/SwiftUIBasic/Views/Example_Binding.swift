@@ -16,8 +16,11 @@ struct ExampleBinding: View {
             SwitchStatusView(isSwitchOn: $isSwitchOn)
 
             Button {
-                // 状態を切り替え
-                isSwitchOn.toggle()
+                // アニメーション付きで状態を切り替え（0.5 秒かけて切り替え）
+                withAnimation(.easeInOut(duration: 0.5)) {
+                    // 状態を切り替え
+                    isSwitchOn.toggle()
+                }
             } label: {
                 Label("切り替え", systemImage: "hand.point.up")
                     .font(.headline)
@@ -42,8 +45,11 @@ struct SwitchStatusView: View {
             .aspectRatio(contentMode: .fit)
             .frame(width: 120, height: 120)
             .symbolRenderingMode(.multicolor)
-            .foregroundStyle(.green)
             .padding()
+            // State の値により Image のスケールを変更（これも withAnimation の影響でトランジションがかかる）
+            .scaleEffect(isSwitchOn ? 1.2 : 1)
+            // Image の色も同様にトランジションがかかりながら変更される
+            .foregroundStyle(isSwitchOn ? .green : .orange)
     }
 }
 
