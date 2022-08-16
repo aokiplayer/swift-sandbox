@@ -26,7 +26,8 @@ struct ContentView: View {
 //        ExampleAlert1(isAlertShown: false)
 //        ExampleAlert2(isAlertShown: false)
 //        ExampleBinding()
-        ExampleFont()
+//        ExampleFont()
+        ExampleObserve(person: Person(name: "山田二郎", age: 53))
     }
 }
 

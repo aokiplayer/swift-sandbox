@@ -17,6 +17,7 @@
 		CD343D4F288E48720048E4F1 /* Example_NavigationStack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD343D4E288E48720048E4F1 /* Example_NavigationStack2.swift */; };
 		CD38E27C28AA2D160022497E /* Example_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38E27B28AA2D160022497E /* Example_Binding.swift */; };
 		CD38E27E28AA37700022497E /* Example_Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38E27D28AA37700022497E /* Example_Font.swift */; };
+		CD38E28028AB26A60022497E /* Example_Observe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38E27F28AB26A60022497E /* Example_Observe.swift */; };
 		CD52DE61288A4520007FA14C /* Example_Preview1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52DE60288A4520007FA14C /* Example_Preview1.swift */; };
 		CD52DE63288A4A0A007FA14C /* Example_Preview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD52DE62288A4A0A007FA14C /* Example_Preview2.swift */; };
 		CD595F5427D9849B006E13A5 /* Example_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD595F5327D9849B006E13A5 /* Example_HStack.swift */; };
@@ -44,6 +45,7 @@
 		CD343D4E288E48720048E4F1 /* Example_NavigationStack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_NavigationStack2.swift; sourceTree = "<group>"; };
 		CD38E27B28AA2D160022497E /* Example_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Binding.swift; sourceTree = "<group>"; };
 		CD38E27D28AA37700022497E /* Example_Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Font.swift; sourceTree = "<group>"; };
+		CD38E27F28AB26A60022497E /* Example_Observe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Observe.swift; sourceTree = "<group>"; };
 		CD52DE60288A4520007FA14C /* Example_Preview1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Preview1.swift; sourceTree = "<group>"; };
 		CD52DE62288A4A0A007FA14C /* Example_Preview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Preview2.swift; sourceTree = "<group>"; };
 		CD595F5327D9849B006E13A5 /* Example_HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_HStack.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				CD1AB413288F8E9700BC8AA7 /* Example_Alert2.swift */,
 				CD38E27B28AA2D160022497E /* Example_Binding.swift */,
 				CD38E27D28AA37700022497E /* Example_Font.swift */,
+				CD38E27F28AB26A60022497E /* Example_Observe.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				CD717EE527D9745F00C3DC93 /* ContentView.swift in Sources */,
 				CD29E31B2889F2840042D090 /* Example_TimelineView.swift in Sources */,
 				CD52DE63288A4A0A007FA14C /* Example_Preview2.swift in Sources */,
+				CD38E28028AB26A60022497E /* Example_Observe.swift in Sources */,
 				CD717EE327D9745F00C3DC93 /* SwiftUIBasicApp.swift in Sources */,
 				CDF3406827D99F4000DF6E57 /* Example_Modal.swift in Sources */,
 				CDF3406627D999F200DF6E57 /* Example_List2.swift in Sources */,
