@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD14967E28AB5EBE009C6012 /* Example_EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14967D28AB5EBE009C6012 /* Example_EnvironmentObject.swift */; };
 		CD1AB412288F5BA300BC8AA7 /* Example_Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AB411288F5BA300BC8AA7 /* Example_Alert1.swift */; };
 		CD1AB414288F8E9700BC8AA7 /* Example_Alert2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AB413288F8E9700BC8AA7 /* Example_Alert2.swift */; };
 		CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1B8599288A542700520CC2 /* Example_AttributedString.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD14967D28AB5EBE009C6012 /* Example_EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_EnvironmentObject.swift; sourceTree = "<group>"; };
 		CD1AB411288F5BA300BC8AA7 /* Example_Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Alert1.swift; sourceTree = "<group>"; };
 		CD1AB413288F8E9700BC8AA7 /* Example_Alert2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Alert2.swift; sourceTree = "<group>"; };
 		CD1B8599288A542700520CC2 /* Example_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_AttributedString.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				CD38E27D28AA37700022497E /* Example_Font.swift */,
 				CD38E27F28AB26A60022497E /* Example_Observe1.swift */,
 				CD38E28128AB326B0022497E /* Example_Observe2.swift */,
+				CD14967D28AB5EBE009C6012 /* Example_EnvironmentObject.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				CD38E27E28AA37700022497E /* Example_Font.swift in Sources */,
 				CD1AB412288F5BA300BC8AA7 /* Example_Alert1.swift in Sources */,
 				CDBEAA8927FC6D5000E295BC /* Example_SafariVC.swift in Sources */,
+				CD14967E28AB5EBE009C6012 /* Example_EnvironmentObject.swift in Sources */,
 				CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */,
 				CD1B859E288B81E900520CC2 /* Example_NavigationStack1.swift in Sources */,
 				CD595F5627D98873006E13A5 /* Example_ZStack.swift in Sources */,

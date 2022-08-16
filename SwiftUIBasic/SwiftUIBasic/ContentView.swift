@@ -28,7 +28,11 @@ struct ContentView: View {
 //        ExampleBinding()
 //        ExampleFont()
 //        ExampleObserve1(person: Person(name: "山田二郎", age: 53))
-        ExampleObserve2()
+//        ExampleObserve2()
+        ExampleEnvironmentObject()
+            .environmentObject(MyAppColors(
+                myBackgroundColor: .gray,
+                myFontColor: .blue))
     }
 }
 
