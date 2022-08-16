@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ExampleObserve: View {
+struct ExampleObserve1: View {
     // モデルはビュー内でインスタンス化してはダメ
     // ビューはいつ破棄されて再生成されるかわからないため、状態が保持できなくなってしまう
     @ObservedObject var person: Person
@@ -20,22 +20,26 @@ struct ExampleObserve: View {
             .padding()
             
             Button {
-                person.age += 1
+                withAnimation(.easeInOut) {
+                    person.age += 1
+                }
             } label: {
                 Text("加齢")
                     .font(.headline)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
             .buttonStyle(.borderedProminent)
+            .frame(width: 200, height: 48)
         }
         .padding()
     }
 }
 
-// 状態を表すモデルデータとして扱うには、ObservableObject に準拠
+// モデルデータとして扱うには、ObservableObject に準拠
 class Person: ObservableObject {
     let name: String
     
-    // 状態として公開するプロパティには @Published を指定
+    // ビューがモニタリングするプロパティには @Published を指定
     @Published var age: Int
 
     init(name: String, age: Int) {
@@ -46,6 +50,6 @@ class Person: ObservableObject {
 
 struct Example_Observe_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleObserve(person: Person(name: "山田二郎", age: 53))
+        ExampleObserve1(person: Person(name: "山田二郎", age: 53))
     }
 }

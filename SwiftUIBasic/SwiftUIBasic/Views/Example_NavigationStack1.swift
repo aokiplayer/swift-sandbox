@@ -18,7 +18,7 @@ struct ExampleNavigationStack1: View {
     }
 }
 
-struct Example_NavigationStack_Previews: PreviewProvider {
+struct Example_NavigationStack1_Previews: PreviewProvider {
     static var previews: some View {
         ExampleNavigationStack1()
     }
