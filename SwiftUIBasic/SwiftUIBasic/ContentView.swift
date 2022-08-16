@@ -29,10 +29,12 @@ struct ContentView: View {
 //        ExampleFont()
 //        ExampleObserve1(person: Person(name: "山田二郎", age: 53))
 //        ExampleObserve2()
-        ExampleEnvironmentObject()
-            .environmentObject(MyAppColors(
-                myBackgroundColor: .gray,
-                myFontColor: .blue))
+//        ExampleEnvironmentObject()
+//            .environmentObject(MyAppColors(myBackgroundColor: .gray, myFontColor: .blue))
+//        ExampleStateAndObserved()
+        ExampleEnvironment()
+            .environment(\.locale, Locale(identifier: "ja_JP"))
+            .environment(\.colorScheme, .dark)
     }
 }
 
