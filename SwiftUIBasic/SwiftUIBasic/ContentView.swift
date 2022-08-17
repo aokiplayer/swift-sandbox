@@ -25,16 +25,19 @@ struct ContentView: View {
 //        ExampleNavigationStack2()
 //        ExampleAlert1(isAlertShown: false)
 //        ExampleAlert2(isAlertShown: false)
+        ExampleAlert3()
 //        ExampleBinding()
 //        ExampleFont()
 //        ExampleObserve1(person: Person(name: "山田二郎", age: 53))
 //        ExampleObserve2()
 //        ExampleEnvironmentObject()
-//            .environmentObject(MyAppColors(myBackgroundColor: .gray, myFontColor: .blue))
+//            .environmentObject(
+//                MyAppColors(myBackgroundColor: .gray,
+//                            myFontColor: .blue))
 //        ExampleStateAndObserved()
-        ExampleEnvironment()
-            .environment(\.locale, Locale(identifier: "ja_JP"))
-            .environment(\.colorScheme, .dark)
+//        ExampleEnvironment()
+//            .environment(\.locale, Locale(identifier: "ja_JP"))
+//            .environment(\.colorScheme, .dark)
     }
 }
 
