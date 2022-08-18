@@ -16,6 +16,7 @@ struct ExampleAlert3: View {
                 .border(.red)
             Button {
                 isAlertPresented.toggle()
+                message = ""
             } label: {
                 Label("Show dialog", systemImage: "hand.point.up")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
