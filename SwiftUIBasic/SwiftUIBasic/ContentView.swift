@@ -25,7 +25,7 @@ struct ContentView: View {
 //        ExampleNavigationStack2()
 //        ExampleAlert1(isAlertShown: false)
 //        ExampleAlert2(isAlertShown: false)
-        ExampleAlert3()
+//        ExampleAlert3()
 //        ExampleBinding()
 //        ExampleFont()
 //        ExampleObserve1(person: Person(name: "山田二郎", age: 53))
@@ -38,6 +38,7 @@ struct ContentView: View {
 //        ExampleEnvironment()
 //            .environment(\.locale, Locale(identifier: "ja_JP"))
 //            .environment(\.colorScheme, .dark)
+        ExampleAppStorage()
     }
 }
 
