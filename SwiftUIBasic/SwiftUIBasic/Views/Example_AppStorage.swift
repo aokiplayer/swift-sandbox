@@ -2,12 +2,13 @@ import SwiftUI
 
 struct ExampleAppStorage: View {
     // UserDefaults を利用する Property Wrapper
-    // 値の変更時に、ビューを更新する
+    // 値の変更時にビューを更新する
+    // UserDefaults なので、アプリ終了しても値は保持される
     @AppStorage("lastMessage") private var lastMessage: String = "\(dateFormatter.string(from: Date.now)))"
 
     // シーンごとに値を保持する Property Wrapper
     // Split View で確認すると、独立して値が管理されているのがわかる
-    // アプリ終了でクリアされる？
+    // アプリ終了でクリアされる
     @SceneStorage("number") private var number: Int = 0
     
     @Environment(\.dismiss) private var dismiss: DismissAction
