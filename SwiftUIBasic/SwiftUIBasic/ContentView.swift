@@ -39,7 +39,9 @@ struct ContentView: View {
 //            .environment(\.locale, Locale(identifier: "ja_JP"))
 //            .environment(\.colorScheme, .dark)
 //        ExampleAppStorage()
-        ExampleGeometry1()
+//        ExampleGeometry1()
+        ExampleTextField()
+            .environment(\.locale, Locale(identifier: "ja_JP"))
     }
 }
 
