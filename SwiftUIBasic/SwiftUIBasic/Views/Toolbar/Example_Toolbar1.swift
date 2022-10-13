@@ -7,7 +7,7 @@ struct ExampleToolbar1: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("ToolBar の配置")
+                Text("Toolbar の配置")
                     .font(.title)
                 
                 TextField("入力", text: $inputText)

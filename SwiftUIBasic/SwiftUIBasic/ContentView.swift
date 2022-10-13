@@ -70,7 +70,8 @@ fileprivate var views: [RowValue] = [
     ("Geometry1", AnyView(ExampleGeometry1()), ""),
     ("TextField", AnyView(ExampleTextField()
         .environment(\.locale, Locale(identifier: "ja_JP"))), ""),
-    ("Toolbar1", AnyView(ExampleToolbar1()), "")
+    ("Toolbar1", AnyView(ExampleToolbar1()), ""),
+    ("Toolbar2", AnyView(ExampleToolbar2()), "Toolbar1 と動作は全く同じです。Toolbar の内容を関数として切り出しています。"),
 ]
 
 // AnyView の配列を List で繰り返すので、Identifiable に準拠
