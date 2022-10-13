@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ExampleToolBar1: View {
+struct ExampleToolbar1: View {
     @State private var inputText: String = ""
     @FocusState private var isFocused: Bool
     
@@ -47,8 +47,8 @@ struct ExampleToolBar1: View {
     }
 }
 
-struct ExampleToolBar1_Previews: PreviewProvider {
+struct Example_Toolbar1_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleToolBar1()
+        ExampleToolbar1()
     }
 }
