@@ -42,6 +42,7 @@
 		CDF09D1028CAD27A00116BF9 /* Example_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF09D0F28CAD27A00116BF9 /* Example_TextField.swift */; };
 		CDF3406627D999F200DF6E57 /* Example_List2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3406527D999F200DF6E57 /* Example_List2.swift */; };
 		CDF3406827D99F4000DF6E57 /* Example_Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF3406727D99F4000DF6E57 /* Example_Modal.swift */; };
+		CDF340FA28FE697C001D2766 /* Example_PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF340F928FE697C001D2766 /* Example_PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		CDF09D0F28CAD27A00116BF9 /* Example_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_TextField.swift; sourceTree = "<group>"; };
 		CDF3406527D999F200DF6E57 /* Example_List2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_List2.swift; sourceTree = "<group>"; };
 		CDF3406727D99F4000DF6E57 /* Example_Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Modal.swift; sourceTree = "<group>"; };
+		CDF340F928FE697C001D2766 /* Example_PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				CDF09D0A28CACF3300116BF9 /* Environment */,
 				CDF09D0C28CACF6C00116BF9 /* AppStorage_SessionStorage */,
 				CD37FD0828F7A094000593D4 /* Toolbar */,
+				CDF340F828FE6950001D2766 /* Photos */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,6 +267,14 @@
 			path = Font_String;
 			sourceTree = "<group>";
 		};
+		CDF340F828FE6950001D2766 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				CDF340F928FE697C001D2766 /* Example_PhotoPicker.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -351,6 +362,7 @@
 				CD595F5627D98873006E13A5 /* Example_ZStack.swift in Sources */,
 				CD595F5427D9849B006E13A5 /* Example_HStack.swift in Sources */,
 				CD52DE61288A4520007FA14C /* Example_Preview1.swift in Sources */,
+				CDF340FA28FE697C001D2766 /* Example_PhotoPicker.swift in Sources */,
 				CD717EF327D97B6F00C3DC93 /* Example_VStack.swift in Sources */,
 				CD29E3192889EEF70042D090 /* Example_Group.swift in Sources */,
 				CD343D4F288E48720048E4F1 /* Example_NavigationStack2.swift in Sources */,

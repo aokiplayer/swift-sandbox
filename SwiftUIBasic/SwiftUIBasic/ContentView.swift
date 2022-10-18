@@ -70,8 +70,12 @@ fileprivate var views: [RowValue] = [
     ("Geometry1", AnyView(ExampleGeometry1()), ""),
     ("TextField", AnyView(ExampleTextField()
         .environment(\.locale, Locale(identifier: "ja_JP"))), ""),
-    ("Toolbar1", AnyView(ExampleToolbar1()), ""),
-    ("Toolbar2", AnyView(ExampleToolbar2()), "Toolbar1 と動作は全く同じです。Toolbar の内容を関数として切り出しています。"),
+    ("Toolbar1", AnyView(ExampleToolbar1()),
+     "Toolbar1,2 は、動作は同じです。"),
+    ("Toolbar2", AnyView(ExampleToolbar2()),
+     "Toolbar1 と動作は全く同じです。Toolbar の内容を関数として切り出しています。"),
+    ("PhotosPicker", AnyView(ExamplePhotoPicker()),
+     "画像を選択するPhotosPicker は、iOS 16 以降で利用可能です。"),
 ]
 
 // AnyView の配列を List で繰り返すので、Identifiable に準拠
