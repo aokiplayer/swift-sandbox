@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0F6C6F2918DEC200461914 /* Example_Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F6C6E2918DEC200461914 /* Example_Animation1.swift */; };
 		CD14967E28AB5EBE009C6012 /* Example_EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD14967D28AB5EBE009C6012 /* Example_EnvironmentObject.swift */; };
 		CD1AB412288F5BA300BC8AA7 /* Example_Alert1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AB411288F5BA300BC8AA7 /* Example_Alert1.swift */; };
 		CD1AB414288F8E9700BC8AA7 /* Example_Alert2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1AB413288F8E9700BC8AA7 /* Example_Alert2.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0F6C6E2918DEC200461914 /* Example_Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Animation1.swift; sourceTree = "<group>"; };
 		CD14967D28AB5EBE009C6012 /* Example_EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_EnvironmentObject.swift; sourceTree = "<group>"; };
 		CD1AB411288F5BA300BC8AA7 /* Example_Alert1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Alert1.swift; sourceTree = "<group>"; };
 		CD1AB413288F8E9700BC8AA7 /* Example_Alert2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Alert2.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD0F6C6D2918DE7300461914 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CD0F6C6E2918DEC200461914 /* Example_Animation1.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		CD1B859C288B7CA300520CC2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 				CDF09D0C28CACF6C00116BF9 /* AppStorage_SessionStorage */,
 				CD37FD0828F7A094000593D4 /* Toolbar */,
 				CDF340F828FE6950001D2766 /* Photos */,
+				CD0F6C6D2918DE7300461914 /* Animation */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,6 +359,7 @@
 				CD37FD0728F7972A000593D4 /* Example_Toolbar1.swift in Sources */,
 				CD38E27C28AA2D160022497E /* Example_Binding.swift in Sources */,
 				CD595F5827D98D18006E13A5 /* Example_List1.swift in Sources */,
+				CD0F6C6F2918DEC200461914 /* Example_Animation1.swift in Sources */,
 				CD29E31728898B550042D090 /* Example_Label.swift in Sources */,
 				CD556F5728B336C3004BC846 /* Example_AppStorage.swift in Sources */,
 				CD38E27E28AA37700022497E /* Example_Font.swift in Sources */,
