@@ -77,6 +77,7 @@ fileprivate var views: [RowValue] = [
     ("PhotosPicker", AnyView(ExamplePhotoPicker()),
      "画像を選択するPhotosPicker は、iOS 16 以降で利用可能です。"),
     ("Animation1", AnyView(ExampleAnimation1()), ""),
+    ("SizeClass", AnyView(ExampleSizeClass()), "異なるサイズクラスのデバイスで表示を確認してください。"),
 ]
 
 // AnyView の配列を List で繰り返すので、Identifiable に準拠

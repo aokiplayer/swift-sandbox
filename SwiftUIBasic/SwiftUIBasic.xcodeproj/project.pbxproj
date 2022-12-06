@@ -38,6 +38,7 @@
 		CD717EF327D97B6F00C3DC93 /* Example_VStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD717EF227D97B6F00C3DC93 /* Example_VStack.swift */; };
 		CD9DCD8228AB767D00BA6269 /* Example_StateAndObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DCD8128AB767D00BA6269 /* Example_StateAndObserved.swift */; };
 		CD9DCD8428AB9E7300BA6269 /* Example_Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DCD8328AB9E7200BA6269 /* Example_Environment.swift */; };
+		CDAE2C4E293ECF16007EC3B8 /* Example_SizeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE2C4D293ECF16007EC3B8 /* Example_SizeClass.swift */; };
 		CDBEAA8927FC6D5000E295BC /* Example_SafariVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEAA8827FC6D5000E295BC /* Example_SafariVC.swift */; };
 		CDF09D0328CABE0C00116BF9 /* Example_Geometry1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF09D0228CABE0C00116BF9 /* Example_Geometry1.swift */; };
 		CDF09D1028CAD27A00116BF9 /* Example_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF09D0F28CAD27A00116BF9 /* Example_TextField.swift */; };
@@ -79,6 +80,7 @@
 		CD717EF227D97B6F00C3DC93 /* Example_VStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_VStack.swift; sourceTree = "<group>"; };
 		CD9DCD8128AB767D00BA6269 /* Example_StateAndObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_StateAndObserved.swift; sourceTree = "<group>"; };
 		CD9DCD8328AB9E7200BA6269 /* Example_Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Environment.swift; sourceTree = "<group>"; };
+		CDAE2C4D293ECF16007EC3B8 /* Example_SizeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_SizeClass.swift; sourceTree = "<group>"; };
 		CDBEAA8827FC6D5000E295BC /* Example_SafariVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_SafariVC.swift; sourceTree = "<group>"; };
 		CDF09D0228CABE0C00116BF9 /* Example_Geometry1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Geometry1.swift; sourceTree = "<group>"; };
 		CDF09D0F28CAD27A00116BF9 /* Example_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_TextField.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				CD37FD0828F7A094000593D4 /* Toolbar */,
 				CDF340F828FE6950001D2766 /* Photos */,
 				CD0F6C6D2918DE7300461914 /* Animation */,
+				CDAE2C4C293ECEF3007EC3B8 /* SizeClass */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,14 @@
 				CD717EE927D9746000C3DC93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDAE2C4C293ECEF3007EC3B8 /* SizeClass */ = {
+			isa = PBXGroup;
+			children = (
+				CDAE2C4D293ECF16007EC3B8 /* Example_SizeClass.swift */,
+			);
+			path = SizeClass;
 			sourceTree = "<group>";
 		};
 		CDF09D0428CACD8B00116BF9 /* Layout */ = {
@@ -366,6 +377,7 @@
 				CD1AB412288F5BA300BC8AA7 /* Example_Alert1.swift in Sources */,
 				CDBEAA8927FC6D5000E295BC /* Example_SafariVC.swift in Sources */,
 				CD9DCD8228AB767D00BA6269 /* Example_StateAndObserved.swift in Sources */,
+				CDAE2C4E293ECF16007EC3B8 /* Example_SizeClass.swift in Sources */,
 				CD14967E28AB5EBE009C6012 /* Example_EnvironmentObject.swift in Sources */,
 				CD1B859A288A542700520CC2 /* Example_AttributedString.swift in Sources */,
 				CD556F2028AC685B004BC846 /* Example_Alert3.swift in Sources */,
