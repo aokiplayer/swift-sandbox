@@ -1,20 +1,59 @@
-//
-//  Example_Grid.swift
-//  SwiftUIBasic
-//
-//  Created by Hiroyuki Aoki on 2022/12/20.
-//
-
 import SwiftUI
 
-struct Example_Grid: View {
+struct ExampleGrid: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("iPhone")
+                .font(.largeTitle)
+                .padding()
+            
+            // グリッドを作成（各行の縦方向は下揃え）
+            Grid(alignment: .bottom) {
+                // 1 行目
+                GridRow {
+                    Text("with Home button")
+                    Text("with Face ID")
+                    Text("with Dynamic Island")
+                }
+                .font(.headline)
+                .padding(.bottom)
+
+                // 2 行目
+                GridRow {
+                    Image(systemName: "iphone.gen1")
+                        .resizable()
+
+                    Image(systemName: "iphone.gen2")
+                        .resizable()
+                    
+                    Image(systemName: "iphone.gen3")
+                        .resizable()
+                }
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(.blue)
+                
+                Divider()
+                
+                // 3 行目
+                GridRow {
+                    Text("2007")
+                    Text("2017")
+                    Text("2022")
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .aspectRatio(CGSize(width: 5, height: 1), contentMode: .fit)
+                .foregroundColor(.white)
+                .background(.teal)
+            }
+        }
+        .symbolRenderingMode(.multicolor)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .padding()
     }
 }
 
-struct Example_Grid_Previews: PreviewProvider {
+struct ExampleGrid_Previews: PreviewProvider {
     static var previews: some View {
-        Example_Grid()
+        ExampleGrid()
     }
 }
